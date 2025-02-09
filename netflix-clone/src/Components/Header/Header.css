@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
   background-color: rgb(20, 20, 20);
-  /* background-color: transparent; */
+  background-color: transparent;
   color: white;
   height: 10vh;
   transition: all 0.5s;
@@ -30,7 +30,7 @@
   margin-right: 2vw;
 } */
 .header-right ul {
-    width:130%;
+  width: 130%;
   display: flex;
   list-style: none;
   justify-content: space-between;

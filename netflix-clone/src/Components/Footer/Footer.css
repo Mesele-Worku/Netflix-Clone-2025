@@ -7,9 +7,10 @@
 }
 .footer_inner_container {
   width: 60%;
+  margin-top: 2vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .footer_icons {
   width: 12%;
