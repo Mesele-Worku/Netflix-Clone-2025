@@ -44,7 +44,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
   };
   return (
     <div className="row">
-      <h1>{title}</h1>
+      <h2>{title}</h2>
       <div className="row_posters">
         {movies?.map((movie, index) => (
           <img
@@ -58,7 +58,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
           />
         ))}
       </div>
-      <div style={{ padding: "40px" }}>
+      <div style={{ padding: "20px" }}>
         {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
       </div>
     </div>
